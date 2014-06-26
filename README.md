@@ -1,6 +1,12 @@
-# CL-CUNEIFORM
+# 𒀰 CL-CUNEIFORM
 
 Common Lisp library for handling and parsing unicode Sumerian and Akkadian cuneiform signs, and their ASCII and Latin representations.
+
+### Unicode Cuneiform Fonts
+
+In order to make the most use of this library, you will need the unicode fonts which contain the glyphs for range 0x12000&mdash;0x123FF; you may download the required fonts from: http://oracc.museum.upenn.edu/doc/user/fonts/ &mdash; recommended: Cuneiform Composite, for the full range of cuneiform characters defined in Unicode 5.0.  It is made available under the SIL Open Font License.
+
+If you can see the cuneiform sign at the top of this document, the fonts have been installed correctly.
 
 ### Reading Cuneiform Transcriptions
 
