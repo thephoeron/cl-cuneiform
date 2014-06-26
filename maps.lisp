@@ -6,14 +6,12 @@
 
 (in-package :cl-cuneiform)
 
-(defvar *cuneiform* (make-hash-table :test 'equalp :size 1000))
+(defvar *cuneiform-signs* (make-hash-table :test 'equalp :size 1000))
 
-(let ((cuneiform-plist #.(with-open-file (f (merge-pathnames "cuneiform-plist.lisp-expr"
-                                                             (or *compile-file-pathname*
-                                                                 *load-truename*)))
+(let ((cuneiform-plist #.(with-open-file (f (merge-pathnames "cuneiform-plist.lisp-expr" (or *compile-file-pathname* *load-truename*)))
                            (read f))))
-  (loop for logograph in cuneiform-plist
-        do (setf (gethash (car logograph) *cuneiform*) (cdr logograph))))
+  (loop for (key . value) in cuneiform-plist
+        do (setf (gethash key *cuneiform-signs*) value)))
 
 (defvar *sign-readings* (make-hash-table :test 'equalp :size 10000))
 
