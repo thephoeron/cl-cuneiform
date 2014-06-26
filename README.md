@@ -16,7 +16,7 @@ Transcription of cuneiform uses a specialized syntax:
 
 **%** (crossing): the following sign form is drawn over the preceding sign
 
-**@** (opposing): the following sign form is drawn rotated 180°.
+**@** (opposing): the following sign form is drawn rotated 180°.  Alternate uses of **@** include terminal **@t**, signifying that the sign form is rotated 45°; and **@180**, signifying that the whole sign form is inverted, *i.e.,* rotated 180°.
 
 **×4** (squared): the preceding sign is repeated four times, rotated, in a square formation.
 
