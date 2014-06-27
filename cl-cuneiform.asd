@@ -22,8 +22,8 @@
   :license "MIT"
   :depends-on (:split-sequence)
   :components ((:file "packages")
+               (:file "utils")
                (:file "maps")
                (:file "parser")
-               (:file "utils")
                (:file "cl-cuneiform")))
 ;; EOF
