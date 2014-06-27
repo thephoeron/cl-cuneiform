@@ -22,6 +22,9 @@
 
 (defun get-sign-for-reading (sign-reading)
   "Return the Unicode cuneiform character for a given symbol, sign-reading."
-  )
+  (let* ((r-plist (gethash sign-reading *sign-readings*))
+         (sign (getf r-plist :sign))
+         (c-plist (gethash sign *cuneiform-signs*)))
+    (getf c-plist :char)))
 
 ;; EOF

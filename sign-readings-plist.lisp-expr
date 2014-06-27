@@ -1,4 +1,4 @@
 ;; special characters: Ḫ Ŋ Š × ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉
 '((a . (:ascii "a" :latin "a" :signs (a)))
   (a2 . (:ascii "a2" :latin "a₂" :signs (a2)))
-  (a3 . (:ascii "a3" :lating "a₃" :signs (pi))))
+  (a3 . (:ascii "a3" :latin "a₃" :signs (pi))))
