@@ -15,4 +15,13 @@
 
 (defvar *sign-readings* (make-hash-table :test 'equalp :size 10000))
 
+(let ((sign-readings-plist #.(with-open-file (f (merge-pathnames "sign-readings-plist.lisp-expr" (or *compile-file-pathname* *load-truename*)))
+                               (read f))))
+  (loop for (key . value) in sign-readings-plist
+        do (setf (gethash key *sign-readings*) value)))
+
+(defun get-sign-for-reading (sign-reading)
+  "Return the Unicode cuneiform character for a given symbol, sign-reading."
+  )
+
 ;; EOF
