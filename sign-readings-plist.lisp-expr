@@ -1,4 +1,12 @@
 ;; special characters: Ḫ Ŋ Š × ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉
 '(("a" . (:ascii "a" :latin "a" :signs ("a")))
   ("a2" . (:ascii "a2" :latin "a₂" :signs ("a2")))
-  ("a3" . (:ascii "a3" :latin "a₃" :signs ("pi"))))
+  ("a3" . (:ascii "a3" :latin "a₃" :signs ("pi")))
+  ("a4" . (:ascii "a4" :latin "a₄" :signs ("a" "an")))
+  ("a5" . (:ascii "a5" :latin "a₅" :signs ("ak")))
+  ("a6" . (:ascii "a6" :latin "a₆" :signs ("u")))
+  ("a7" . (:ascii "a7" :latin "a₇" :signs ("ha")))
+  ("a8" . (:ascii "a8" :latin "a₈" :signs ("ur")))
+  ("a9" . (:ascii "a9" :latin "a₉" :signs ("lagab-times-a")))
+  ("a10" . (:ascii "a10" :latin "a₁₀" :signs ("sha6")))
+  )
