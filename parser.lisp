@@ -12,6 +12,9 @@
     (loop for word in wordlist
           collect (split-sequence #\- word))))
 
+;; 8/28/2014
+;; Hmmm... I don't remember what I was doing here, when I left it unfinished...
+;; Will probably have to scrap it and start over---doesn't make any sense.
 (defun ascii->latin (str)
   "Returns an upcase extended Latin unicode string with the appropriate transformations from ASCII-representation of Cuneiform signs."
   (let ((latin-string (format nil "~:@(~A~)")))
