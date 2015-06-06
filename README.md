@@ -1,5 +1,7 @@
 # 𒀰 CL-CUNEIFORM
 
+[![Build Status](https://travis-ci.org/thephoeron/cl-cuneiform.svg)](https://travis-ci.org/thephoeron/cl-cuneiform)
+
 Common Lisp library for handling and parsing unicode Sumerian and Akkadian cuneiform signs, and their ASCII and Latin representations.
 
 ### Unicode Cuneiform Fonts
