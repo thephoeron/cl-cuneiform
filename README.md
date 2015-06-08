@@ -48,4 +48,4 @@ Subscript numerals in the transcriptions are not read, they are used for catalog
 
 ### License
 
-This project is released under the MIT License.  See cl-cuneiform/LICENSE for more information.
+Copyright &copy; 2014--2015, "the Phoeron" Colin J.E. Lupton. This project has been released under the MIT License; please see `cl-cuneiform/LICENSE` for more information.
