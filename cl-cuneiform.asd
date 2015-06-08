@@ -16,7 +16,7 @@
 
 (defsystem #:cl-cuneiform
   :serial t
-  :description ""
+  :description "Library for handling and parsing unicode Sumerian and Akkadian cuneiform signs, and their ASCII and Latin representations."
   :version #.*cl-cuneiform-version*
   :author "\"the Phoeron\" Colin J.E. Lupton <sysop@thephoeron.com>"
   :license "MIT"
