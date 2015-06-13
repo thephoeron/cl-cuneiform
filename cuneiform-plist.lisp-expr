@@ -1,8 +1,8 @@
 ;; special characters: Ḫ Ŋ Š × ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉
-'(("a" . (:ascii "A" :latin "A" :char #\CUNEIFORM_SIGN_A))
-  ("a-times-a" . (:ascii "AxA" :latin "A×A" :char #\CUNEIFORM_SIGN_A_TIMES_A))
-  ("a-times-bad" . (:ascii "AxBAD" :latin "A×BAD" :char #\CUNEIFORM_SIGN_A_TIMES_BAD))
-  ("a-times-gan2-tenu" . (:ascii "AxGAN2@t" :latin "A×GAN₂@t" :char #\CUNEIFORM_SIGN_A_TIMES_GAN2_TENU))
+'(("a" . (:ascii "A" :latin "A" :char #\U+12000))
+  ("a-times-a" . (:ascii "AxA" :latin "A×A" :char #\U+12001))
+  ("a-times-bad" . (:ascii "AxBAD" :latin "A×BAD" :char #\U+12002))
+  ("a-times-gan2-tenu" . (:ascii "AxGAN2@t" :latin "A×GAN₂@t" :char #\U+12003))
   ("a-times-ha" . (:ascii "AxHA" :latin "A×ḪA" :char #\CUNEIFORM_SIGN_A_TIMES_HA))
   ("a-times-igi" . (:ascii "AxIGI" :latin "A×IGI" :char #\CUNEIFORM_SIGN_A_TIMES_IGI))
   ("a-times-lagar-gunu" . (:ascii "AxLAGAR.GUNU" :latin "A×LAGAR.GUNU" :char #\CUNEIFORM_SIGN_A_TIMES_LAGAR_GUNU))
