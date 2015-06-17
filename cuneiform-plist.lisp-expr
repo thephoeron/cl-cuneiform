@@ -876,7 +876,7 @@
   ("zu" . (:ascii "ZU" :latin "ZU" :char #\U+1236A))
   ("zu5" . (:ascii "ZU5" :latin "ZU₅" :char #\U+1236B))
   ("zu5-times-a" . (:ascii "ZU5xA" :latin "ZU₅×A" :char #\U+1236C))
-  ("zubur" . (:ascii "ZUBUR" :latin "ZUBUR" :char #\CUNEIFORM_SIGN_ZUBUR #\U+1236D))
+  ("zubur" . (:ascii "ZUBUR" :latin "ZUBUR" :char #\U+1236D))
   ("zum" . (:ascii "ZUM" :latin "ZUM" :char #\U+1236E))
   ;; insert extended set of Cuneiform signs here
   ("numeral-two-ash" . (:ascii "2(ASH)" :latin "2(AŠ)" :char #\U+12400))
