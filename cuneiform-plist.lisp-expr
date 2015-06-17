@@ -572,7 +572,7 @@
   ("mush3-times-a" . (:ascii "MUSH3xA" :latin "MUŠ₃×A" :char #\U+1223A))
   ("mush3-times-a-plus-di" . (:ascii "MUSH3xA+DI" :latin "MUŠ₃×A+DI" :char #\U+1223B))
   ("mush3-times-di" . (:ascii "MUSH3xDI" :latin "MUŠ₃×DI" :char #\U+1223C))
-  ("mush3-gunu" . (:ascii "MUSH3.GUNU" :latin "MUŠ₃.GUNU" :char #\CUNEIFORM_SIGN_MUSH3_GUNU #\U+1223D))
+  ("mush3-gunu" . (:ascii "MUSH3.GUNU" :latin "MUŠ₃.GUNU" :char #\U+1223D))
   ("na" . (:ascii "NA" :latin "NA" :char #\U+1223E))
   ("na2" . (:ascii "NA2" :latin "NA₂" :char #\U+1223F))
   ("naga" . (:ascii "NAGA" :latin "NAGA" :char #\U+12240))
