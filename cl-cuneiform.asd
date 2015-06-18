@@ -27,7 +27,8 @@
                (:file "maps")
                (:module "grammars"
                 :serial t
-                :components ((:file "ascii")
+                :components ((:file "common")
+                             (:file "ascii")
                              (:file "latin")
                              (:file "sumerian")
                              (:file "akkadian")))
