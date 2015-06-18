@@ -6,6 +6,8 @@
 
 (in-package :cl-cuneiform)
 
+;; 6/18/2015
+;; Slot this for deprecation, writing ESRAP Parsers
 (defun tokenize-cuneiform (str)
   "Return a 2d list of cuneiform signs parsed from a string of cuneiform text."
   (let ((wordlist (split-sequence #\Space str)))

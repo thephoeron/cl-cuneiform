@@ -25,6 +25,12 @@
   :components ((:file "packages")
                (:file "utils")
                (:file "maps")
+               (:module "grammars"
+                :serial t
+                :components ((:file "ascii")
+                             (:file "latin")
+                             (:file "sumerian")
+                             (:file "akkadian")))
                (:file "parser")
                (:file "cl-cuneiform")))
 ;; EOF
