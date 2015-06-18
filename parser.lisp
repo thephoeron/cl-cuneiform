@@ -6,4 +6,14 @@
 
 (in-package :cl-cuneiform)
 
+;;; Parsing Interface
+
+(defun parse-string (str grammar)
+  "Parse a string using the provided grammar. Valid grammars are 'ASCII, 'LATIN, 'SUMERIAN, and 'AKKADIAN."
+  (parse grammar str :junk-allowed t))
+
+(defun parse-file (pathname grammar)
+  "Parse a text file using the provided grammar. Valid grammars are 'ASCII, 'LATIN, 'SUMERIAN, and 'AKKADIAN."
+  (parse-string (slurp-file pathname) grammar))
+
 ;; EOF
