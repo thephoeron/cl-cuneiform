@@ -6,4 +6,11 @@
 
 (in-package :cl-cuneiform)
 
+;; Akkadian Parser Grammar
+
+(defrule akkadian (and (* akkadian-block) (* blank-line))
+  (:destructure (content blanks)
+    (declare (ignore blanks))
+    content))
+
 ;; EOF
