@@ -24,6 +24,7 @@
   "Return the Unicode cuneiform character for a given symbol, sign-reading."
   (let* ((r-plist (gethash sign-reading *sign-readings*))
          (signlist (getf r-plist :signs)))
-    (loop for sign in signlist collect (getf (gethash sign *cuneiform-signs*) :char))))
+    (loop for sign in signlist
+          collect (code-char (getf (gethash sign *cuneiform-signs*) :char)))))
 
 ;; EOF
