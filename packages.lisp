@@ -8,7 +8,10 @@
 
 (defpackage #:cl-cuneiform
   (:nicknames #:cuneiform)
-  (:use :cl :cl-user :split-sequence)
+  (:use :cl
+        :cl-user
+        :split-sequence
+        :esrap)
   (:export #:*cl-cuneiform-version*))
 
 (in-package :cl-cuneiform)

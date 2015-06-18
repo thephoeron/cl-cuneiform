@@ -20,7 +20,8 @@
   :version #.*cl-cuneiform-version*
   :author "\"the Phoeron\" Colin J.E. Lupton <sysop@thephoeron.com>"
   :license "MIT"
-  :depends-on (:split-sequence)
+  :depends-on (:split-sequence
+               :esrap)
   :components ((:file "packages")
                (:file "utils")
                (:file "maps")
