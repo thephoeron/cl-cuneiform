@@ -6,4 +6,11 @@
 
 (in-package :cl-cuneiform)
 
+;; ASCII Cuneiform Representation Parser Grammar
+
+(defrule ascii (and (* ascii-block) (* blank-line))
+  (:destructure (content blanks)
+    (declare (ignore blanks))
+    content))
+
 ;; EOF
