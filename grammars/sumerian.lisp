@@ -6,4 +6,11 @@
 
 (in-package :cl-cuneiform)
 
+;; Sumerian Parser Grammar
+
+(defrule sumerian (and (* sumerian-block) (* blank-line))
+  (:destructure (content blanks)
+    (declare (ignore blanks))
+    content))
+
 ;; EOF
