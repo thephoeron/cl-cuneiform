@@ -6,4 +6,11 @@
 
 (in-package :cl-cuneiform)
 
+;; Latin Cuneiform Representation Parser Grammar
+
+(defrule latin (and (* latin-block) (* blank-line))
+  (:destructure (content blanks)
+    (declare (ignore blanks))
+    content))
+
 ;; EOF
