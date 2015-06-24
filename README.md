@@ -6,9 +6,9 @@ Common Lisp library for handling and parsing unicode Sumerian and Akkadian cunei
 
 ### Unicode Cuneiform Fonts
 
-In order to make the most use of this library, you will need the unicode fonts which contain the glyphs for range 0x12000&mdash;0x123FF; you may download the required fonts from: http://oracc.museum.upenn.edu/doc/user/fonts/ &mdash; recommended: Cuneiform Composite, for the full range of cuneiform characters defined in Unicode 5.0.  It is made available under the SIL Open Font License.
+In order to make the most use of this library, you will need the unicode fonts which contain the glyphs for range 0x12000&mdash;0x123FF; you may download the required fonts from: [Unicode Fonts for Ancient Scripts](http://users.teilar.gr/~g1951d/) &mdash; recommended: Akkadian 7.15, for the full range of cuneiform characters defined in Unicode 8.0.  They are made available free for any use, without license, copyright, or trademark.  Alternatively, you may try out some of Google's web fonts which contain the cuneiform range, such as Noto Sans.
 
-If you can see the cuneiform sign at the top of this document, the fonts have been installed correctly.
+If you can see the cuneiform sign at the top of this document, fonts have been installed correctly.
 
 ### Reading Cuneiform Transcriptions
 
