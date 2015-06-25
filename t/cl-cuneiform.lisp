@@ -29,13 +29,13 @@
 (deftest sign-readings
   (is (list (code-char #x12000))
       (cl-cuneiform::get-sign-for-reading "a")
-      "'A' results in character #\U+12000")
+      "'A' results in character #\\U+12000")
   (is (list (code-char #x12009))
       (cl-cuneiform::get-sign-for-reading "a2")
-      "'A2' results in character #\U+12009")
+      "'A2' results in character #\\U+12009")
   (is (list (code-char #x1227F))
       (cl-cuneiform::get-sign-for-reading "a3")
-      "'A3' results in character #\U+1227F"))
+      "'A3' results in character #\\U+1227F"))
 
 (run-test-all)
 
