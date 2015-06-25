@@ -13,12 +13,15 @@
 
 ;; NOTE: To run this test file, execute `(asdf:test-system :cl-cuneiform)' in your Lisp.
 
-(plan 1)
+(plan 2)
 
 (deftest sanity-check
   (is (+ 1 1)
       2
-      "Sane Lisp system."))
+      "Sane Lisp system.")
+  (is (list (code-char #x12009))
+      (cl-cuneiform::get-sign-for-reading "a2")
+      "Reading: A2 results in character 𒀉"))
 
 (run-test-all)
 
