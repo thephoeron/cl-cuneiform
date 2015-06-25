@@ -24,17 +24,20 @@
       "Multiplication: (* 2 2) => 4.")
   (is (length "four")
       4
-      "Length: (length \"four\") => 4."))
+      "Length: (length \"four\") => 4.")
+  (is (replace-all "Hello, world!" "world" "multiverse")
+      "Hello, multiverse!"
+      "Replace-All => \"Hello, multiverse!\"."))
 
 (deftest sign-readings
   (is (list (code-char #x12000))
-      (cl-cuneiform::get-sign-for-reading "a")
+      (get-sign-for-reading "a")
       "'A' results in character #\\U+12000")
   (is (list (code-char #x12009))
-      (cl-cuneiform::get-sign-for-reading "a2")
+      (get-sign-for-reading "a2")
       "'A2' results in character #\\U+12009")
   (is (list (code-char #x1227F))
-      (cl-cuneiform::get-sign-for-reading "a3")
+      (get-sign-for-reading "a3")
       "'A3' results in character #\\U+1227F"))
 
 (run-test-all)
