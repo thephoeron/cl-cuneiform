@@ -6,14 +6,14 @@
 
 (in-package :cl-cuneiform)
 
-(defvar *cuneiform-signs* (make-hash-table :test 'equalp :size 1000))
+(defparameter *cuneiform-signs* (make-hash-table :test 'equalp :size 1000))
 
 (let ((cuneiform-plist #.(with-open-file (f (merge-pathnames "cuneiform-plist.lisp-expr" (or *compile-file-pathname* *load-truename*)))
                            (read f))))
   (loop for (sign . plist) in cuneiform-plist
         do (setf (gethash sign *cuneiform-signs*) plist)))
 
-(defvar *sign-readings* (make-hash-table :test 'equalp :size 10000))
+(defparameter *sign-readings* (make-hash-table :test 'equalp :size 10000))
 
 (let ((sign-readings-plist #.(with-open-file (f (merge-pathnames "sign-readings-plist.lisp-expr" (or *compile-file-pathname* *load-truename*)))
                                (read f))))
