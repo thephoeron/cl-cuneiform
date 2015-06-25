@@ -12,7 +12,13 @@
         :cl-user
         :split-sequence
         :esrap)
-  (:export #:*cl-cuneiform-version*))
+  (:export #:*cl-cuneiform-version*
+           #:*cuneiform-signs*
+           #:*sign-readings*
+           #:get-sign-for-reading
+           #:parse-string
+           #:parse-file
+           #:replace-all))
 
 (in-package :cl-cuneiform)
 
