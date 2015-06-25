@@ -1,5 +1,7 @@
 # 𒀰 CL-CUNEIFORM
 
+[![Join the chat at https://gitter.im/thephoeron/cl-cuneiform](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/thephoeron/cl-cuneiform?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Build Status](https://travis-ci.org/thephoeron/cl-cuneiform.svg)](https://travis-ci.org/thephoeron/cl-cuneiform)
 [![Coverage Status](https://coveralls.io/repos/thephoeron/cl-cuneiform/badge.svg)](https://coveralls.io/r/thephoeron/cl-cuneiform)
 
