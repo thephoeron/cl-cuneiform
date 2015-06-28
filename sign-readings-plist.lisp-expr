@@ -1,4 +1,5 @@
-;; special characters: Ḫ Ŋ Š × ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉
+;; special characters: ʔ Ḫ Ŋ Š × ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉
+;; sign-reading entry template: ("" . (:ascii "" :latin "" :signs ("")))
 '(("a" . (:ascii "a" :latin "a" :signs ("a")))
   ("a2" . (:ascii "a2" :latin "a₂" :signs ("a2")))
   ("a3" . (:ascii "a3" :latin "a₃" :signs ("pi")))
@@ -9,4 +10,13 @@
   ("a8" . (:ascii "a8" :latin "a₈" :signs ("ur")))
   ("a9" . (:ascii "a9" :latin "a₉" :signs ("lagab-times-a")))
   ("a10" . (:ascii "a10" :latin "a₁₀" :signs ("sha6")))
+  ("'a" . (:ascii "'a" :latin "ʔa" :signs ("aleph")))
+  ("a'" . (:ascii "a'" :latin "aʔ" :signs ("aleph")))
+  ("'a2" . (:ascii "'a2" :latin "ʔa₂" :signs ("hi-times-nun")))
+  ("a'2" . (:ascii "a'2" :latin "aʔ₂" :signs ("hi-times-nun")))
+  ("'a3" . (:ascii "'a3" :latin "ʔa₃" :signs ("e2")))
+  ("a'3" . (:ascii "a'3" :latin "aʔ₃" :signs ("e2")))
+  ("'a4" . (:ascii "" :latin "ʔa₄" :signs ("ha")))
+  ("ab" . (:ascii "ab" :latin "ab" :signs ("ab")))
+  ("ap" . (:ascii "ap" :latin "ap" :signs ("ab")))
   )
