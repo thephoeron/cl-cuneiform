@@ -1,4 +1,4 @@
-;;;; -*- Mode: LISP; Syntax: COMMON-LISP; Package: CL-CUNEIFORM; Base: 10 -*-
+;;;; -*- Mode: LISP; Syntax: COMMON-LISP; Package: CL-CUNEIFORM-TEST; Base: 10 -*-
 ;;;; file: cl-cuneiform-test.asd
 
 ;;;; Copyright (c) 2014--2015, "the Phoeron" Colin J.E. Lupton <//thephoeron.com>
@@ -20,8 +20,8 @@
   :depends-on (#:cl-cuneiform
                #:prove)
   :components ((:module "t"
-                :components
-                ((:test-file "cl-cuneiform"))))
+                :serial t
+                :components ((:test-file "cl-cuneiform"))))
   :defsystem-depends-on (prove-asdf)
   :perform (test-op :after (op c)
                     (funcall (intern #.(string :run-test-system) :prove-asdf) c)

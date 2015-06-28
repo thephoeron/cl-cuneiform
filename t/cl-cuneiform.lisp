@@ -1,4 +1,4 @@
-;;;; -*- Mode: LISP; Syntax: COMMON-LISP; Package: CL-CUNEIFORM; Base: 10 -*-
+;;;; -*- Mode: LISP; Syntax: COMMON-LISP; Package: CL-CUNEIFORM-TEST; Base: 10 -*-
 ;;;; file: t/cl-cuneiform.lisp
 
 ;;;; Copyright (c) 2014--2015, "the Phoeron" Colin J.E. Lupton <//thephoeron.com>
