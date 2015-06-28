@@ -43,4 +43,9 @@
 (defrule terminal-endline (and space newline eof)
   (:text t))
 
+(defrule whitespace (or eof space-char newline space space-newline blank-line nonindent-space line-break normal-endline endline terminal-endline))
+
+(defrule block (not whitespace)
+  (:text t))
+
 ;; EOF
