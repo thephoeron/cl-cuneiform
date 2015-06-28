@@ -14,7 +14,7 @@
 (defsystem #:cl-cuneiform-test
   :serial t
   :version #.cl-cuneiform-asd:*cl-cuneiform-version*
-  :description "Test System for CL-CUNEIFORM."
+  :description "Test Suite for CL-CUNEIFORM."
   :author "\"the Phoeron\" Colin J.E. Lupton <sysop@thephoeron.com>"
   :license "MIT"
   :depends-on (#:cl-cuneiform
