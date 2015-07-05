@@ -24,7 +24,7 @@
       4
       "Multiplication: (* 2 2) => 4.")
   (is (length "four")
-      8
+      4
       "Length: (length \"four\") => 4.")
   (is (replace-all "Hello, world!" "world" "multiverse")
       "Hello, multiverse!"
