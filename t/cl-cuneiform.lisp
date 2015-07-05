@@ -16,6 +16,7 @@
 (plan 2)
 
 (deftest sanity-check
+  (pass "PROVE is loaded and ready to go.")
   (is (+ 1 1)
       2
       "Addition: (+ 1 1) => 2.")
