@@ -13,4 +13,6 @@
     (declare (ignore blanks))
     content))
 
+(defrule latin-block block)
+
 ;; EOF

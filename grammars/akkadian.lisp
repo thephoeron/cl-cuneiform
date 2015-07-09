@@ -13,4 +13,7 @@
     (declare (ignore blanks))
     content))
 
+(defrule akkadian-block block)
+
+
 ;; EOF

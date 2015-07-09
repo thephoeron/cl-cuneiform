@@ -13,4 +13,7 @@
     (declare (ignore blanks))
     content))
 
+(defrule ascii-block block)
+
+
 ;; EOF
