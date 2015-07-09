@@ -13,7 +13,7 @@
 
 ;; NOTE: To run this test file, execute `(asdf:test-system :cl-cuneiform)' in your Lisp.
 
-(plan 2)
+(plan 3)
 
 (deftest sanity-check
   (pass "PROVE is loaded and ready to go.")
@@ -40,6 +40,11 @@
   (is (list (code-char #x1227F))
       (get-sign-for-reading "a3")
       "'A3' results in character #\\U+1227F"))
+
+(deftest cuneiform-parser
+  (is (parse-string "sumerian" 'sumerian)
+      nil
+      "Parse Sumerian text."))
 
 (run-test-all)
 
