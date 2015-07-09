@@ -18,7 +18,11 @@
            #:get-sign-for-reading
            #:parse-string
            #:parse-file
-           #:replace-all))
+           #:replace-all
+           #:sumerian
+           #:akkadian
+           #:latin
+           #:ascii))
 
 (in-package :cl-cuneiform)
 
