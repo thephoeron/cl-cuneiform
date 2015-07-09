@@ -21,4 +21,12 @@
           when pos do (write-string replacement out)
           while pos)))
 
+;; From http://www.ymeme.com/slurping-a-file-common-lisp-83.html
+(defun slurp-file (path)
+  "Slurp a file"
+  (with-open-file (stream path)
+    (let ((seq (make-array (file-length stream) :element-type 'character :fill-pointer t)))
+      (setf (fill-pointer seq) (read-sequence seq stream))
+      seq)))
+
 ;; EOF
