@@ -44,7 +44,16 @@
 (deftest cuneiform-parser
   (is (parse-string "sumerian" 'sumerian)
       nil
-      "Parse Sumerian text."))
+      "Parse Sumerian text.")
+  (is (parse-string "akkadian" 'akkadian)
+      nil
+      "Parse Akkadian text.")
+  (is (parse-string "latin" 'latin)
+      nil
+      "Parse Latin representation of Cuneiform text.")
+  (is (parse-string "ascii" 'ascii)
+      nil
+      "Parse ASCII representation of Cuneiform text."))
 
 (run-test-all)
 
