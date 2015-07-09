@@ -11,7 +11,7 @@ Common Lisp library for handling and parsing unicode Sumerian and Akkadian cunei
 
 ### Supported Platforms
 
-CL-CUNEIFORM is known to compile and pass all tests on the latest 64-bit versions of the following Lisp implementations:
+CL-CUNEIFORM is known to compile and pass all tests with 100% code coverage on the latest 64-bit versions of the following Lisp implementations:
 
 - SBCL
 - Clozure CL
