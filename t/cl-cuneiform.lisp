@@ -41,6 +41,9 @@
       (get-sign-for-reading "a3")
       "'A3' results in character #\\U+1227F"))
 
+(with-open-file (o "cuneiform.txt" :direction :output :if-does-not-exist :create)
+  (format o "Does this cuneiform text parse?~%~%A-BA NAGI NU~%"))
+
 (deftest cuneiform-parser
   (is (parse-string "sumerian" 'sumerian)
       nil
@@ -53,7 +56,10 @@
       "Parse Latin representation of Cuneiform text.")
   (is (parse-string "ascii" 'ascii)
       nil
-      "Parse ASCII representation of Cuneiform text."))
+      "Parse ASCII representation of Cuneiform text.")
+  (is (parse-file "cuneiform.txt" 'sumerian)
+      nil
+      "Parse Cuneiform text from file."))
 
 (run-test-all)
 
