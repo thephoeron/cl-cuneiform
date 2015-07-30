@@ -16,7 +16,7 @@
   ("a'2" . (:ascii "a'2" :latin "aʔ₂" :signs ("hi-times-nun")))
   ("'a3" . (:ascii "'a3" :latin "ʔa₃" :signs ("e2")))
   ("a'3" . (:ascii "a'3" :latin "aʔ₃" :signs ("e2")))
-  ("'a4" . (:ascii "" :latin "ʔa₄" :signs ("ha")))
+  ("'a4" . (:ascii "'a4" :latin "ʔa₄" :signs ("ha")))
   ("ab" . (:ascii "ab" :latin "ab" :signs ("ab")))
   ("ap" . (:ascii "ap" :latin "ap" :signs ("ab")))
   )
