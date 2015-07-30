@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.org/thephoeron/cl-cuneiform.svg?branch=master)](https://travis-ci.org/thephoeron/cl-cuneiform)
 [![Coverage Status](https://coveralls.io/repos/thephoeron/cl-cuneiform/badge.svg?branch=master)](https://coveralls.io/r/thephoeron/cl-cuneiform?branch=master)
-[![Not Available in Quicklisp](https://img.shields.io/badge/quicklisp-not%20available-red.svg)](https://quicklisp.org/)
+[![Quicklisp](http://quickdocs.org/badge/cl-cuneiform.svg)](http://quickdocs.org/cl-cuneiform/)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 Common Lisp library for handling and parsing unicode Sumerian and Akkadian cuneiform signs, and their ASCII and Latin representations.
