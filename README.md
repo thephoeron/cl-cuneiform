@@ -1,11 +1,10 @@
 # 𒀰 CL-CUNEIFORM
 
-[![Join the chat at https://gitter.im/thephoeron/cl-cuneiform](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/thephoeron/cl-cuneiform?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 [![Build Status](https://travis-ci.org/thephoeron/cl-cuneiform.svg?branch=master)](https://travis-ci.org/thephoeron/cl-cuneiform)
 [![Coverage Status](https://coveralls.io/repos/thephoeron/cl-cuneiform/badge.svg?branch=master)](https://coveralls.io/r/thephoeron/cl-cuneiform?branch=master)
 [![Quicklisp](http://quickdocs.org/badge/cl-cuneiform.svg)](http://quickdocs.org/cl-cuneiform/)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![Join the chat at https://gitter.im/thephoeron/cl-cuneiform](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/thephoeron/cl-cuneiform?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Common Lisp library for handling and parsing unicode Sumerian and Akkadian cuneiform signs, and their ASCII and Latin representations.
 
